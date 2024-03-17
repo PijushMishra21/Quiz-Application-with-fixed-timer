@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Quiz Application</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png+xml" href="image/icons8-quizlet-64.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="container">
+    <!-- 1st page -->
+    <div id="div1" class="text-center mt-5">
+        <img src="c:\Users\acer\Pictures\undraw_Questions_re_1fy7.png" class="quiz_picture img-fluid" alt="quiz_picture">
+        <h5>Quiz Application with fixed timer</h5>
+        <p id="para1" class="para1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, doloribus aut nam asperiores mollitia numquam eos, quidem</p>
+        <button id="button1" class="btn btn-primary">Let's Play</button>
+    </div>
+
+    <!-- 2nd page -->
+    <div id="div2" class="text-center mt-5 hidden">
+        <div>
+            <h4 id="heading4">Some Rules of this Quiz</h4>
+        </div>
+        <hr>
+        <ol>
+            <li> You have only <b style="color:red;">15 seconds</b> per each question</li>
+            <li> Once you select your answer it can't be changed</li>
+            <li> You can't select any option once time goes off</li>
+            <li> You cant exit from the quiz while you are playing </li>
+            <li> You will get <b style="color:green;">Rewards</b> on the basis of your currect ansewars only</li>
+        </ol>
+        <hr>
+        <button id="button2" class="btn btn-danger">Quit</button>
+        <button id="button3" class="btn btn-success">Continue</button>
+    </div>
+
+    <!-- 3rd page -->
+    <div id="div3" class="text-center mt-5">
+        <header id="div4">
+            <span class="Start-Quiz">Start Quiz</span>
+            <span class="Time-left">Time left</span>
+            <span class="Time-count">15</span><br>
+        </header>
+        <br>
+        <span class="timeline"></span>
+        <div id="div5" class="mt-5">
+            <h3 class="question"> <!--What does html stand for ? --></h3>
+            <ol id='order' class="list-unstyled">    
+                <li id='option1' class="option"><!-- hyper think murkup langues --><i class="fa-solid fa-check icon"></i></li>
+                <li id='option2' class="option"><!-- hyper think murkup langues --><i class="fa-solid fa-xmark icon"></i></li>
+                <li id='option3' class="option"><!-- hyper think murkup langues --> <i class="fa-solid fa-xmark icon"></i></li>
+                <li id='option4' class="option"><!-- hyper think murkup langues --> <i class="fa-solid fa-xmark icon"></i></li>
+            </ol> 
+        </div>
+        <footer class="mt-5"> 
+            <div class="para_div"><span class="para"></span></div>                          
+            <button id="Next_btn" class="btn btn-primary">Next</button>
+        </footer>           
+    </div>
+
+    <!-- 4th page -->
+    <div id="result_page" class="result_page text-center mt-5 hidden">
+        <img src="image/12428209_4982767.jpg" class="quiz_picture img-fluid" alt="quiz_picture">
+        <div>
+            You Have succssesfully Finished The Quiz
+        </div>
+        <span class="points"><!--Carry on👌 You got <p class="points">0</p> out of <p></p>-->
+        </span>
+        <footer class="mt-5"> 
+            <button id="back_btn" class="btn btn-danger">Back</button>
+            <button id="continu_btn" class="btn btn-success">Continue</button>
+        </footer>   
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV
