@@ -66,6 +66,9 @@ padding-top: 20px;
  /* font-size: 20px; */
  text-decoration:underline;
 }
+#order{
+list-style-type: none;
+}
 ol li{
  margin-bottom: 30px;
  margin-right: 10px;
@@ -312,7 +315,7 @@ font-weight: 800;
 }
 
 #continu_btn{
-  width: 100px;
+  width: auto;
   height: 40px;
   background-color:blue;
   color: aliceblue;
