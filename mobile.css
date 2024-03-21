@@ -22,6 +22,10 @@
   height: 200px;
 }
 
+ol li{
+ margin-bottom:15px;
+ /* margin-right: 10px; */
+}
 .h5{
 padding-left: 2px;
 padding-right: 2px;
@@ -41,6 +45,7 @@ padding-right: 2px;
  color: aliceblue;
  border-radius:15px ;
  font-size: 22px;
+ padding: 5px;
 }
 ol option{
  margin-bottom:10px;
@@ -88,7 +93,7 @@ ol option{
   font-size: 20px;
   display: none;
   margin-left: 100px;
-  margin-right: 100px;
+  margin-right: 120px;
   }
 
 .question {
