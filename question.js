@@ -64,13 +64,13 @@ option    : [
                         },
                         {
                           number    : 6,
-                          question  : '"CPU" stand for?',
-                          Answer    : 'Central Processing Unit ',
+                          question  : 'current PM of India is?',
+                          Answer    : 'Narendra Modi ',
                           option    : [
-                                      'Computer Processing Unit',
-                                      'Computer Programming Unit',
-                                      'Central Processing Unit ',
-                                      'Central Programming Unit '
+                                      'Narendra Modi',
+                                      'Harendra Modi',
+                                      'Birendra Modi ',
+                                      'Narendra Mudi'
                           
                                     ]
                               },
@@ -89,25 +89,25 @@ option    : [
                               },
                               {
                                 number    : 8,
-                                question  : '"WHO" stand for?',
-                                Answer    : 'World Health Organization',
+                                question  : 'who is CM of west Bengal?',
+                                Answer    : 'Mamata Banarjee',
                                 option    : [
-                                            'World Health Organisation',
-                                            'World Health Organization',
-                                            'World Health Organizations  ',
-                                            'World Health Organyzation '
+                                            'Budhadev Bhattachariya',
+                                            'Pranab Mukharjee',
+                                            'Mamata Banarjee ',
+                                            'J Dhankhar '
                                 
                                           ]
                                     },
                                     {
                                       number    : 9,
-                                      question  : '"HTML" stand for?',
-                                      Answer    : 'Hyper Text Markup Language',
+                                      question  : '"JSX" stand for?',
+                                      Answer    : 'JavaScript Xml',
                                       option    : [
-                                                  'Hyper Text Markup Language',
-                                                  'Hyper Text Markup Language',
-                                                  'Hiper Text Murkup Language  ',
-                                                  'Hypar Text Murkup Language '
+                                                  'Javaccript Xmel',
+                                                  'JavaScript Xmal',
+                                                  'JavaScripts Xmel  ',
+                                                  'JavaScript Xml '
                                       
                                                 ]
                                           },
