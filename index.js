@@ -119,7 +119,7 @@ continu_btn.onclick = () => {
          option.innerHTML = questions[index].option[i];
      });
           const para = document.querySelector('.para');
-          para.innerHTML =  `${questions[index].number} of 6Q`
+          para.innerHTML =  `${questions[index].number} of 10Q`
         };
 
 
