@@ -1,14 +1,14 @@
 let div1 = document.querySelector('#div1');
 let div2 = document.querySelector('#div2');
 let div3 = document.querySelector('#div3');
-let Start_btn = document.querySelector('#button1');
+let Start_btn = document.querySelector('.start-btn');
 let Continue_btn = document.querySelector('#button3');
 let Quit_btn = document.querySelector('#button2');
 let Next_btn = document.querySelector('#Next_btn');
 let timeline = document.querySelector('.Time-count');
 let div6 = document.querySelector('#result_page');
 let back_btn = document.querySelector('#back_btn');
-let continu_btn = document.querySelector('#continu_btn');
+let continu_btn = document.querySelector('#Restart_btn');
 
 // document.addEventListener("DOMContentLoaded", function() {
 //  let startButton = document.querySelector('#button1');
@@ -41,11 +41,19 @@ Continue_btn.onclick =()=>{
  let div3 = document.querySelector('#div3');
      div3.style.display = 'block';
      div2.style.display = 'none';
+     timeCount();
      showQuestion(0);
      timeOfs(15);
      timeLiner(320);
      console.log('continued')
 };
+
+function timeCount(){
+    
+}
+
+
+
 
 let timecounting ;
 let question_count = 0;
@@ -251,6 +259,10 @@ let  userScore = 0;//score variable:
             timeLine.style.width = width + 'px';
             if (width >= time) {
                 clearInterval( timelineIntervalId );
+                const options = document.querySelectorAll('.option');
+                options.forEach(option => {
+                    option.classList.add('disabled');
+                });
             }
      }, 50); // Adjust the interval as needed
    };

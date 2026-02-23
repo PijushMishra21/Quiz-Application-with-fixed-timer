@@ -25,9 +25,18 @@ background-color: aqua;
   margin-bottom: 10px;
   border-radius: 50px 50px 10px 10px;
 }
+.heading-home{
+  margin: 20px;
+  margin-bottom: 5px;
+  padding: 10px;
+  /* padding-top: 10px; */
+  height: 80px;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 5px;
+}
 
-
-#button1{
+.start-btn{
  width: 100px;
  height: 40px;
  background-color:blue;
@@ -60,7 +69,13 @@ background-color: aqua;
 
  }
 
-
+ .para1, .para2{
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+ 
+ }
+ 
 #heading4{
 padding-top: 20px;
  /* font-size: 20px; */
@@ -85,6 +100,8 @@ ol li{
 }
 #button3{
  width: 100px;
+ text-align: center;
+ padding: 5px;
  height: 40px;
  background-color:blue;
  color: aliceblue;
@@ -147,7 +164,7 @@ border-radius: 5px;
 text-decoration: underline;
 }
 .Time-count{
-  background-color:rgb(255, 0, 179);
+  background-color:#9E006F;
   padding: 5px;
   border-radius: 5px;
   text-decoration: underline;
@@ -223,8 +240,12 @@ padding-left: 25px;
   text-align: center;
 }
 .para{
-  color:rgb(247, 12, 87);
-  text-decoration: underline;
+  width: 200px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid red;
+  color:rgb(248, 243, 245);
+  background-color: black;
 }
 #Next_btn{
  width: 100px;
@@ -260,7 +281,7 @@ padding-left: 25px;
   margin-left: 0px;
   height: 50px;
   color: #f2f7f2;
-  background-color: rgb(254, 19, 10);
+  background-color:#AD0000;
  }
  .selected {
   background-color: #cceeff; /* Change background color to light blue */
@@ -314,8 +335,8 @@ font-weight: 800;
   background-color: rgb(221, 39, 7);
 }
 
-#continu_btn{
-  width: auto;
+#Restart_btn{
+  width: 100px;
   height: 40px;
   background-color:blue;
   color: aliceblue;

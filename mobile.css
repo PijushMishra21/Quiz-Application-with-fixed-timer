@@ -13,20 +13,21 @@
 #div1, #div2, #div3, .result_page {
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 70%;
   height: 600px;
 }
 
 .quiz_picture {
   width: 100%; 
-  height: 200px;
+  height: 300px;
+  margin-bottom: 10px;
 }
 
 ol li{
  margin-bottom:15px;
  /* margin-right: 10px; */
 }
-.h5{
+.h1{
 padding-left: 2px;
 padding-right: 2px;
 }
@@ -37,20 +38,28 @@ padding-right: 2px;
  padding-right: 10px;
 
 }
-
+#button1,#button2,#back_btn,#Restart_btn{
+ border: none;
+}
 #button3{
  width: auto;
+ display: inline-block;
  height: 40px;
  background-color:blue;
  color: aliceblue;
  border-radius:15px ;
- font-size: 22px;
+ font-size: 20px;
  padding: 5px;
+ border: none;
+}
+.rules{
+   margin-bottom:90px;
+
 }
 ol option{
  margin-bottom:10px;
  margin-right: 10px;
- padding: 20px;
+ padding: 25px;
 }
 
 .Time-left{
@@ -92,11 +101,15 @@ ol option{
   border-radius:15px ;
   font-size: 20px;
   display: none;
-  margin-top: 15px;
-  margin-left: 105px;
-  margin-right: 100px;
+  margin-top: 35px;
+  /* margin-left: 105px; */
+  /* margin-right: 100px; */
+   border: none;
   }
-
+.div5{
+  margin: 50px;
+  
+}
 .question {
   font-size: 18px; 
 }
