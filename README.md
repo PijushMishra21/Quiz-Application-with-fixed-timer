@@ -4,23 +4,23 @@ An interactive quiz application built using **HTML, CSS, and Vanilla JavaScript*
 
 ---
 
+## 🚀 Live Demo
+
+🔗(https://quiz-application-with-fixed-timer.vercel.app/)
+
+## 💻 GitHub Repository
+[🔗
+](https://github.com/PijushMishra21/Quiz-Application-with-fixed-timer/)
+---
+
+## 📸 Preview
+
+
 <img width="1359" height="761" alt="Screenshot 2026-02-23 111520" src="https://github.com/user-attachments/assets/1991ad91-819a-43e7-a78d-258b9f86c7d7" />
 <img width="1359" height="761" alt="Screenshot 2026-02-23 111559" src="https://github.com/user-attachments/assets/74da40da-fac8-457b-b719-13262d0f9124" />
 <img width="1175" height="768" alt="Screenshot 2026-02-23 111640" src="https://github.com/user-attachments/assets/3e123f6f-0218-48fc-a599-04bfcb2550ca" />
 <img width="1354" height="763" alt="Screenshot 2026-02-23 111724" src="https://github.com/user-attachments/assets/2fe36a7a-cced-4b1c-985b-9a4643dc9616" />
 
-## 🚀 Live Demo
-
-🔗 https://your-live-link-here
-
-## 💻 GitHub Repository
-🔗 https://github.com/your-username/quiz-app
-
----
-
-## 📸 Preview
-
-![Quiz App Preview](./preview.png)
 
 ---
 
@@ -109,7 +109,7 @@ Frontend Developer
 
 🌐 Portfolio: https://your-portfolio-link  
 💼 LinkedIn: https://linkedin.com/in/your-link  
-🐙 GitHub: https://github.com/your-username
+🐙 GitHub: https://github.com/PijushMishra21
 
 ---
 
