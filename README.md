@@ -108,7 +108,7 @@ Through this project, I improved my understanding of:
 Frontend Developer
 
 🌐 Portfolio: https://your-portfolio-link  
-💼 LinkedIn: https://linkedin.com/in/your-link  
+💼 LinkedIn: https://www.linkedin.com/in/pijushmishrafrontenddeveloper/
 🐙 GitHub: https://github.com/PijushMishra21
 
 ---
