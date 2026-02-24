@@ -107,7 +107,7 @@ Through this project, I improved my understanding of:
 **Pijush Kanti Mishra**  
 Frontend Developer
 
-🌐 Portfolio: https://your-portfolio-link  
+🌐 Portfolio: https://pijushmishra21.github.io/Portfolio_p/
 💼 LinkedIn: https://www.linkedin.com/in/pijushmishrafrontenddeveloper/
 🐙 GitHub: https://github.com/PijushMishra21
 
